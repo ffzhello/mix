@@ -18,7 +18,7 @@ public class GetUserInfo {
          * 用户uid
          * 用户唯一标志符，手机号等
          **/
-        private Long uId;
+        private String uId;
     }
 
     /**
@@ -26,7 +26,7 @@ public class GetUserInfo {
      **/
     @Data
     public static class GetUserInfoResponse {
-        private Long uId;
+        private String uId;
 
         /**
          * 用户昵称

@@ -1,6 +1,5 @@
 package com.ffzhello.mix.api;
 
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -12,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  **/
 @RestController
 public class MixApi {
-    @RequestMapping("*")
+
     public String handle() {
         // TODO 获取请求参数，调用响应的处理器
         // TODO 现场记录
