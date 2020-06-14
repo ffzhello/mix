@@ -1,4 +1,4 @@
-package com.ffzhello.mix;
+package com.ffzhello.mix.core;
 
 import com.alibaba.fastjson.JSON;
 import org.aspectj.lang.ProceedingJoinPoint;
