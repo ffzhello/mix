@@ -16,7 +16,6 @@ public class UserApi {
     /**
      * 获取用信息
      *
-     * // TODO 1、切面不起作用  2、方法调用统计  3、缓存切面统一处理
      **/
     @RequestMapping("/userApi/getUserInfo")
     public GetUserInfo.GetUserInfoResponse getUserInfo(@RequestParam String uid) {
