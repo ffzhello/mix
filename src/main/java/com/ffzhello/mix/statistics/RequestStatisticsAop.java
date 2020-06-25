@@ -25,5 +25,6 @@ public class RequestStatisticsAop {
         return joinPoint.proceed();
 
         // 异步写日志
+        // TODO 策略模式之策略注入方式
     }
 }
