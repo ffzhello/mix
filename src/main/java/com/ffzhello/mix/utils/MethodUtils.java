@@ -6,4 +6,7 @@ package com.ffzhello.mix.utils;
  **/
 public class MethodUtils {
     // 参考spring methodUtils
+    public void sayHello() {
+        System.out.println("hello");
+    }
 }
