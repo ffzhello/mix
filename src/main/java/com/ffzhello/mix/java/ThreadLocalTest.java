@@ -7,5 +7,6 @@ package com.ffzhello.mix.java;
 public class ThreadLocalTest {
     // ThreadLocal vs InheritableThreadLocal vs TransmittableThreadLocal
     // 解决了什么问题
+    // 应用场景
     // 边界
 }
